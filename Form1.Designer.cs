@@ -31,6 +31,7 @@
             this.btnForm1 = new System.Windows.Forms.Button();
             this.textBoxForm1 = new System.Windows.Forms.TextBox();
             this.lblForm1 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnForm1
@@ -60,11 +61,22 @@
             this.lblForm1.Text = "Escribe en el Text Box y pulsa el botón";
             this.lblForm1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(146, 216);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(150, 25);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "Abrir el Form 2";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(432, 253);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.lblForm1);
             this.Controls.Add(this.textBoxForm1);
             this.Controls.Add(this.btnForm1);
@@ -80,6 +92,7 @@
         private System.Windows.Forms.Button btnForm1;
         private System.Windows.Forms.TextBox textBoxForm1;
         private System.Windows.Forms.Label lblForm1;
+        private System.Windows.Forms.Button button1;
     }
 }
 
