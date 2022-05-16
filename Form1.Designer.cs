@@ -35,29 +35,30 @@
             // 
             // btnForm1
             // 
-            this.btnForm1.Location = new System.Drawing.Point(174, 95);
+            this.btnForm1.Location = new System.Drawing.Point(160, 95);
             this.btnForm1.Name = "btnForm1";
-            this.btnForm1.Size = new System.Drawing.Size(75, 23);
+            this.btnForm1.Size = new System.Drawing.Size(100, 25);
             this.btnForm1.TabIndex = 0;
-            this.btnForm1.Text = "button1";
+            this.btnForm1.Text = "¡Pulsame!";
             this.btnForm1.UseVisualStyleBackColor = true;
             this.btnForm1.Click += new System.EventHandler(this.btnForm1_Click);
             // 
             // textBoxForm1
             // 
-            this.textBoxForm1.Location = new System.Drawing.Point(160, 30);
+            this.textBoxForm1.Location = new System.Drawing.Point(117, 35);
             this.textBoxForm1.Name = "textBoxForm1";
-            this.textBoxForm1.Size = new System.Drawing.Size(100, 22);
+            this.textBoxForm1.Size = new System.Drawing.Size(200, 22);
             this.textBoxForm1.TabIndex = 1;
             // 
             // lblForm1
             // 
             this.lblForm1.AutoSize = true;
-            this.lblForm1.Location = new System.Drawing.Point(190, 157);
+            this.lblForm1.Location = new System.Drawing.Point(103, 157);
             this.lblForm1.Name = "lblForm1";
-            this.lblForm1.Size = new System.Drawing.Size(44, 16);
+            this.lblForm1.Size = new System.Drawing.Size(237, 16);
             this.lblForm1.TabIndex = 2;
-            this.lblForm1.Text = "label1";
+            this.lblForm1.Text = "Escribe en el Text Box y pulsa el botón";
+            this.lblForm1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Form1
             // 
@@ -68,7 +69,7 @@
             this.Controls.Add(this.textBoxForm1);
             this.Controls.Add(this.btnForm1);
             this.Name = "Form1";
-            this.Text = "Formulario Antonio Nicolás Salmerón Rubio";
+            this.Text = "Formulario 1 - Tonet S3ll4rd0";
             this.ResumeLayout(false);
             this.PerformLayout();
 
