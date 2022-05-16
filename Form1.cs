@@ -16,5 +16,10 @@ namespace PruebaEx16
         {
             InitializeComponent();
         }
+
+        private void btnForm1_Click(object sender, EventArgs e)
+        {
+            lblForm1.Text = "Has introducido en el Text Box:\n" + textBoxForm1.Text;
+        }
     }
 }

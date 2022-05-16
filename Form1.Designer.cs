@@ -41,6 +41,7 @@
             this.btnForm1.TabIndex = 0;
             this.btnForm1.Text = "button1";
             this.btnForm1.UseVisualStyleBackColor = true;
+            this.btnForm1.Click += new System.EventHandler(this.btnForm1_Click);
             // 
             // textBoxForm1
             // 
