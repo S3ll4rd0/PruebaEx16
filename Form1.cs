@@ -21,5 +21,11 @@ namespace PruebaEx16
         {
             lblForm1.Text = "Has introducido en el Text Box:\n" + textBoxForm1.Text;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form2 form = new Form2();
+            form.Show();
+        }
     }
 }
